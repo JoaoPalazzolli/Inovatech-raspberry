@@ -6,6 +6,7 @@ Este é o codigo responsável por fazer a coleta de dados dos sensores e enviar 
 
 ## Pré-requisitos: 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 
 ## Estrutura do projeto:
@@ -15,10 +16,10 @@ Este é o codigo responsável por fazer a coleta de dados dos sensores e enviar 
 - init_gpio -> Inicia os sensores.
 
 ## Implantações: 
-- Busca de todos os dados de monitoramento.
-- Busca de todos os dados de monitoramento registrado no dia atual.
-- Busca pelo ultimo dado de monitoramento.
-- Salvamento dos dados de monitoramento.
+- Detectação de fumaça.
+- Luzes de led sinalizando se foi ou não detectado fumaça.
+- Envio dos dados para a API.
+- Mensagens no log dizendo o que o sistema está detectando.
 
 ## Versionamento:
 v1.0.0 <br>
