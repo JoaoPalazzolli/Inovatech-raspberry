@@ -5,20 +5,14 @@ InovaTech-Raspberry
 Este é o codigo responsável por fazer a coleta de dados dos sensores e enviar para a API no formato JSON, além de emitir alertas sonoros e de luz.
 
 ## Pré-requisitos: 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 
 ## Estrutura do projeto:
-### Classe Monitoramento:
-#### Metodos: 
-- FindAll -> Busca por todos os monitoramentos registrados no banco.
-- FindLast -> Busca o ultimo monitoramento registrado no banco.
-- FindCurrentDay -> Busca todos os monitoramentos registrados na data atual.
-- Create -> Salva um monitoramento no banco de dados.
+### Funções: 
+- main -> Inicia o sistema.
+- transfer_json -> Converte os dados para json.
+- init_gpio -> Inicia os sensores.
 
 ## Implantações: 
 - Busca de todos os dados de monitoramento.
@@ -28,8 +22,7 @@ Este é o codigo responsável por fazer a coleta de dados dos sensores e enviar 
 
 ## Versionamento:
 v1.0.0 <br>
-v1.0.1 <br>
-v1.0.2
+v1.0.1 
 
 ## Autor(es):
 212193 - João Pedro Palzzolli - joaopedropalazzolli@gmail.com <br>
